@@ -1,0 +1,157 @@
+/* Media Queries */
+
+/* 1st Break Point : 992 : Tablet Veiw */
+
+@media screen and (max-width:991px){
+
+     .nav-toggle{
+          display: block;
+          margin-right: 20px;
+     }
+
+     .main-nav{
+          overflow: initial;
+     }
+
+    .nav-links{
+          /* display: none; */
+          position: absolute;
+          background-color: white;
+          top:100%;
+          left:-100%;
+          /* padding: 10px 100px 10px; */
+          width: 100%;
+          padding-block: 20px;
+          transition: 0.2s ease-in-out;
+    }
+
+    .nav-links.Active{
+          left: 0;
+    }
+
+    .nav-links ul{
+          flex-direction: column;
+    }
+
+    .example-card{
+          width: calc(50% - 10px);
+          height: 250px;
+    }
+
+    .example-area{
+          gap: 20px;
+    }
+
+    .cta-section{
+          margin-top: 10px;
+          padding-block: 80px;
+    }
+
+    .logos{
+          justify-content: space-evenly;
+    }
+
+    h3{
+          font-size: 1.2rem;
+    }
+    
+}
+
+/* 2nd Break Point : 768 : Normal Phone View */
+
+@media screen and (max-width:767px){
+
+   .header-section{
+        /* display: flex; */
+        flex-direction: column-reverse;
+   }
+
+   .header-left{
+        max-width: 100vw;
+        text-align: center;
+   }
+
+   .primary-button{
+        width: 100%;
+   }
+
+   .feature-card{
+        min-width: calc(50% - 10px);
+   }
+
+   .big-freature-container{
+        flex-direction: column;
+   }
+
+   .second-feature{
+        flex-direction: column-reverse;
+   }
+
+   .example-heading h2{
+        text-align: center;
+
+   }
+
+   .exmaple-section{
+        padding: 5px var(--padding-inline-section);
+   }
+
+   .footer-section{
+        flex-direction: column;
+        gap: 40px;
+        text-align: center;
+        align-items: center;
+   }
+
+   .link-columns{
+        align-items: stretch;
+   }
+
+   .sub-footer-section{
+        flex-wrap: wrap;
+        text-align: center;
+   }
+    
+}
+
+/* 3rd Break Point : 479 : Proper Mobile View */
+
+@media screen and (max-width:479px){
+
+     :root{
+          --padding-inline-section: 10px;
+     }
+
+     h1{
+          font-size: 2rem;
+     }
+      
+     h2{
+          font-size: 1.5rem;
+     }
+      
+     h3{
+          font-size: 1.2rem;
+     }
+
+     p{
+          font-size: 1rem;
+     }
+
+     .feature-card{
+          min-width: 100%;
+     }   
+
+     .feature-section{
+          padding: 50px var(--padding-inline-section) 0;
+     }
+
+     .cta-section p{
+          text-align: center;
+     }
+
+     .example-card {
+          min-width: 100%;    
+     }
+}
+
