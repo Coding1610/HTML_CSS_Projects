@@ -7,5 +7,5 @@
 
 ### Live Website
 ``` bash
-  https://67611218249fcb126f338387--classy-syrniki-11561e.netlify.app/
+  https://html-css-projects-blog-website.vercel.app/
 ```
