@@ -7,5 +7,5 @@
 
 ### Live Website
 ```
-  https://67610cceeaaae5035baa542f--merry-kleicha-06144f.netlify.app/
+  https://html-css-projects-usability-clone.vercel.app/
 ```
