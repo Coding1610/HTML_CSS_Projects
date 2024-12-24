@@ -7,5 +7,5 @@
 
 ### Live Website
 ``` bash
-  https://67610d838ffb2306040c7a28--graceful-starlight-2e2292.netlify.app/
+  https://html-css-projects-netflix-clone.vercel.app/
 ```
