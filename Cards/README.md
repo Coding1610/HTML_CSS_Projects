@@ -7,5 +7,5 @@
 
 ### Live Website
 ``` bash
-  https://67610e0600201906e7c02bcd--startling-jalebi-7c74ff.netlify.app/
+  https://html-css-projects-cards.vercel.app/
 ```
