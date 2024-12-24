@@ -7,5 +7,5 @@
 
 ### Live Website
 ``` bash
-  https://67610d31703a280aabb252aa--harmonious-mermaid-4d6364.netlify.app/
+  https://html-css-projects-study-sync.vercel.app/
 ```
